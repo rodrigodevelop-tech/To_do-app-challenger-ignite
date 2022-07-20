@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 71px 0 90px 0;
+
+  background: var(--gray-700);
+}
+
+.container img {
+  height: 2.25rem;
+  width: 1.375rem;
+  margin-right: 0.75rem;
+}
+
+.container strong {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--purple-800);
+}
+
+.container strong:nth-child(2) {
+  color: var(--blue-700);
+}
